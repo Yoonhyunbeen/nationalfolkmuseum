@@ -761,6 +761,7 @@ section .cont > ul > li > .language > li > ul > li > .time {
 }
 #location .loc.cont .mapDetail > ul > .det.parking {
     width: 100%;
+    position: relative;
 }
 #location .loc.cont .mapDetail > ul > .det .title {
     display: flex;
@@ -843,6 +844,18 @@ section .cont > ul > li > .language > li > ul > li > .time {
     width: 1.5rem; height: 1.5rem;
     z-index: -1;
 }
+#location .loc.cont .mapDetail > ul > .det.parking > a {
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+#location .loc.cont .mapDetail > ul > .det.parking > a button {
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.7);
+    width: 100%; height: 50px;
+}
 /* note */
 #note .nt.cont > .inner {
     display: flex;
@@ -866,7 +879,7 @@ section .cont > ul > li > .language > li > ul > li > .time {
 #note .nt.cont ul > li > p {
     margin: auto 20px;
 }
-#note .nt.cont > table {
+#note .nt.cont table {
     background: #F3F4F5;
     width: 100%;
 }
