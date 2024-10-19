@@ -275,5 +275,8 @@
     #amenity .ame.cont .contInner ul li > a button {
         width: 200px;
     }
+    #location .loc.cont .mapDetail > ul > .det .title > strong {
+        padding: 15px 0 15px 50px;
+    }
 
 }
